@@ -4,3 +4,11 @@
 <loc>https://SEU-SITE.github.io/</loc>
 </url>
 </urlset>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>https://vini03.github.io/mg-terraplanagem/</loc>
+<priority>1.0</priority>
+</url>
+</urlset>
