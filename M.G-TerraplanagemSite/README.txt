@@ -1,1 +1,0 @@
-Projeto organizado em HTML, CSS e JS.

@@ -1,1 +1,0 @@
-console.log('Site M.G Terraplanagem carregado');
