@@ -298,18 +298,29 @@ footer{
 
 @media(max-width:768px){
 
+@media(max-width:768px){
+
 .nav{
-    flex-direction:column;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px 15px;
+}
+
+.logo{
+    font-size:20px;
 }
 
 .menu{
     display:flex;
     flex-wrap:wrap;
-    justify-content:center;
+    justify-content:flex-end;
+    gap:8px;
 }
 
 .menu a{
-    margin:8px;
+    margin:0;
+    font-size:14px;
 }
 
 .hero h1{
