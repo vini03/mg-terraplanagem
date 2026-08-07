@@ -304,6 +304,10 @@ footer{
 
 @media(max-width:768px){
 
+.pagina{
+    padding-top:200px;
+}
+
 header{
     height:auto;
 }
