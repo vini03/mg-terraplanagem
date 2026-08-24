@@ -203,15 +203,16 @@ section{
 
 /* GALERIA */
 .galeria {
-    padding: 40px 20px;
+    padding:130px 20px 40px;
     max-width: 1200px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .galeria h1 {
     text-align: center;
     font-size: 50px;
     margin-bottom: 40px;
+   color: #222;
 }
 
 /* Grade das fotos */
@@ -247,12 +248,12 @@ section{
 @media (max-width: 600px) {
 
     .galeria {
-        padding: 30px 15px;
+        padding: 110px 15px 30px;
     }
 
     .galeria h1 {
-        font-size: 42px;
-        line-height: 1.1;
+        font-size: 38px;
+        line-height: 1.1.1;
         margin-bottom: 30px;
     }
 
