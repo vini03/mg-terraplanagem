@@ -355,7 +355,7 @@ footer{
 @media(max-width:768px){
 
 .pagina{
-    padding-top:200px;
+    padding-top:180px;
 }
 
 /* ==========================================
@@ -416,12 +416,6 @@ footer{
     .hero{
         padding-top: 140px;
     }
-
-    /* Compensa a altura do menu nas páginas internas */
-    .pagina{
-        padding-top: 180px;
-    }
-}
 
 .hero h1{
     font-size:42px;
