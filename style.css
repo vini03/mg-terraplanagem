@@ -346,85 +346,109 @@ footer{
     padding:25px;
 }
 
-
 /* ==========================================
-   CORREÇÃO DEFINITIVA DO CABEÇALHO NO CELULAR
+   CELULAR
 ========================================== */
 
-@media (max-width: 768px){
+@media (max-width:768px){
+
+    .pagina{
+        padding-top:180px;
+    }
+
+    /* MENU */
 
     header{
-        position: fixed !important;
-        top: 0 !important;
-        left: 0 !important;
-        width: 100% !important;
-
-        height: 145px !important;
-        min-height: 145px !important;
-
-        background: #111 !important;
-        z-index: 9999 !important;
-
-        padding: 0 !important;
+        position:fixed;
+        top:0;
+        left:0;
+        width:100%;
+        height:auto;
+        background:#111;
+        z-index:999;
     }
 
-    header .nav{
-        width: 100% !important;
-        height: 145px !important;
-
-        display: flex !important;
-        flex-direction: column !important;
-
-        align-items: center !important;
-        justify-content: center !important;
-
-        margin: 0 !important;
-        padding: 12px 5px !important;
+    .nav{
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+        padding:12px 8px 14px;
     }
 
-    header .logo{
-        width: 100% !important;
-
-        color: #ffb300 !important;
-
-        font-size: 20px !important;
-        font-weight: 800 !important;
-
-        text-align: center !important;
-
-        margin: 0 0 15px 0 !important;
-
-        white-space: nowrap !important;
+    .logo{
+        color:#ffb300;
+        font-size:20px;
+        font-weight:800;
+        text-align:center;
+        margin:0 0 12px 0;
+        white-space:nowrap;
     }
 
-    header .menu{
-        width: 100% !important;
-
-        display: flex !important;
-        flex-direction: row !important;
-
-        justify-content: center !important;
-        align-items: center !important;
-
-        flex-wrap: nowrap !important;
-
-        gap: 15px !important;
-
-        margin: 0 !important;
-        padding: 0 !important;
+    .menu{
+        width:100%;
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        align-items:center;
+        flex-wrap:nowrap;
+        gap:14px;
     }
 
-    header .menu a{
-        color: white !important;
+    .menu a{
+        margin:0;
+        color:white;
+        text-decoration:none;
+        font-size:14px;
+        font-weight:600;
+        white-space:nowrap;
+    }
 
-        font-size: 14px !important;
-        font-weight: 600 !important;
+    /* PÁGINA INICIAL */
 
-        text-decoration: none !important;
+    .hero{
+        padding-top:140px;
+    }
 
-        margin: 0 !important;
-        padding: 0 !important;
+    .hero h1{
+        font-size:42px;
+    }
 
-        white-space: nowrap !important;
+    .hero h2{
+        font-size:24px;
+    }
+
+    .hero p{
+        font-size:18px;
+    }
+
+    /* SERVIÇOS */
+
+    .cards,
+    .grid{
+        grid-template-columns:1fr;
+    }
+
+    /* GALERIA */
+
+    .fotos{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .fotos img{
+        height:120px;
+    }
+
+    /* BOTÃO */
+
+    .btn{
+        width:100%;
+        max-width:300px;
+    }
+
+    html,
+    body{
+        overflow-x:hidden;
     }
 }
