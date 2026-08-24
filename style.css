@@ -349,13 +349,10 @@ footer{
 /* ==========================================
    CELULAR
 ========================================== */
-
-@media(max-width:768px){
-
 @media(max-width:768px){
 
 .pagina{
-    padding-top:200px;
+    padding-top:170px;
 }
 
 header{
