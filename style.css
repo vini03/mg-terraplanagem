@@ -421,3 +421,148 @@ body{
 }
 
 }
+
+/* =========================
+       CABEÇALHO
+    ========================= */
+
+    header{
+        height:auto;
+        min-height:145px;
+    }
+
+    .nav{
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+        padding:15px 10px;
+    }
+
+    .logo{
+        font-size:26px;
+        font-weight:800;
+        text-align:center;
+        margin-bottom:14px;
+        white-space:nowrap;
+    }
+
+    .menu{
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-wrap:wrap;
+        gap:10px 16px;
+    }
+
+    .menu a{
+        margin:0;
+        font-size:16px;
+        font-weight:600;
+        white-space:nowrap;
+    }
+
+
+    /* =========================
+       PÁGINA INICIAL / HERO
+    ========================= */
+
+    .hero{
+        min-height:100vh;
+
+        /* deixa espaço para o menu fixo */
+        padding:210px 18px 50px;
+
+        display:flex;
+        align-items:flex-start;
+        justify-content:center;
+
+        background-position:center center;
+    }
+
+    .hero-content{
+        width:100%;
+        max-width:650px;
+        margin:0 auto;
+        text-align:center;
+    }
+
+    .hero h1{
+        font-size:42px;
+        line-height:1.1;
+        margin:0 0 12px;
+    }
+
+    .hero h2{
+        font-size:22px;
+        line-height:1.3;
+        margin:10px 0 14px;
+    }
+
+    .hero p{
+        font-size:16px;
+        line-height:1.6;
+        margin:0 auto;
+        max-width:600px;
+    }
+
+    .btn{
+        width:auto;
+        min-width:220px;
+        max-width:300px;
+
+        padding:14px 25px;
+        margin-top:22px;
+
+        font-size:16px;
+    }
+
+
+    /* =========================
+       SERVIÇOS E DIFERENCIAIS
+    ========================= */
+
+    .cards,
+    .grid{
+        grid-template-columns:1fr;
+    }
+
+
+    /* =========================
+       GALERIA
+    ========================= */
+
+    .galeria{
+        padding:180px 15px 30px;
+    }
+
+    .galeria h1{
+        font-size:38px;
+        line-height:1.1;
+        margin-bottom:30px;
+    }
+
+    .galeria-container{
+        grid-template-columns:repeat(2,1fr);
+        gap:15px;
+    }
+
+    .galeria-container img{
+        width:100%;
+        height:190px;
+        object-fit:cover;
+        border-radius:15px;
+    }
+
+
+    /* EVITA A PÁGINA PASSAR DA TELA */
+
+    html,
+    body{
+        width:100%;
+        max-width:100%;
+        overflow-x:hidden;
+    }
+}
