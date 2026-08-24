@@ -452,3 +452,96 @@ footer{
         overflow-x:hidden;
     }
 }
+
+
+/* ==========================================
+   CABEÇALHO SOMENTE DA PÁGINA INICIAL
+========================================== */
+
+.header-inicio{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:80px;
+    background:#111;
+    z-index:999;
+}
+
+.nav-inicio{
+    max-width:1200px;
+    height:80px;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 20px;
+}
+
+.logo-inicio{
+    color:#ffb300;
+    font-size:28px;
+    font-weight:800;
+}
+
+.menu-inicio{
+    display:flex;
+    align-items:center;
+    gap:25px;
+}
+
+.menu-inicio a{
+    color:white;
+    text-decoration:none;
+    font-weight:500;
+}
+
+
+/* CELULAR - SÓ PÁGINA INICIAL */
+
+@media(max-width:768px){
+
+    .header-inicio{
+        height:auto;
+        min-height:120px;
+    }
+
+    .nav-inicio{
+        width:100%;
+        height:auto;
+
+        display:flex;
+        flex-direction:column;
+
+        align-items:center;
+        justify-content:center;
+
+        padding:12px 8px 14px;
+    }
+
+    .logo-inicio{
+        font-size:20px;
+        margin-bottom:12px;
+        text-align:center;
+    }
+
+    .menu-inicio{
+        width:100%;
+
+        display:flex;
+        flex-direction:row;
+
+        justify-content:center;
+        align-items:center;
+
+        flex-wrap:wrap;
+
+        gap:10px 16px;
+    }
+
+    .menu-inicio a{
+        font-size:14px;
+        margin:0;
+        white-space:nowrap;
+    }
+}
